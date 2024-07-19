@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img-container{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 10px;
+    align-items: center;
+    padding: 20px;
+    grid-gap: 150px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+    padding: 25px;
+}
+nav ul li{
+    list-style: none;
+}
+h1{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content:center;
+}
+.Food-List{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+.About-Services{
+    background-color: black;
+    color: white;
+    width: 100%;
+}
+h2{
+    color: red;
+}
+.box{
+    border: 1px solid black;
+    background-color: white;
+    color: red;
+    margin: 10px;
+    width: 500px;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    gap: 15px;
+}
+body{
+    background: url(https://media.istockphoto.com/id/539199982/photo/blur-dark-bar-or-cafe-at-night.jpg?s=612x612&w=0&k=20&c=W_MlPP3u4OHCDbYy5MZLym4qlQRU-wRFSUddc-GfMDs=);
+    box-sizing: content-box;
+    background-repeat: repeat;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container2{
+    background-color: aqua;
+    display: flex;
+    justify-content:flex-end;
+    border: 3px solid black
+}
+h3{
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    padding: 10px;;
+}
+.img1-container{
+    background-color: greenyellow;
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   align-items: center;
+   margin: 10px;
+   padding: 20px;
+   grid-gap: 150px;
+}
+.topnav{
+    display: flex;
+    justify-content: center;
+}
+.img2-container{
+    background-color: rgb(128, 0, 255);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    grid-gap: 150px;
+}
+.img3-container{
+    background-color: darkmagenta;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 10px;
+    padding: 20px;
+    grid-gap: 150px;
+}
+@media (max-width: 500px){
+    .image{
+        display: flex;
+        flex-direction: column;
+        background-color: green;
+        color: white;
+        gap: 15px;
+    }
+}
+@media (max-width: 500px){
+    .container2{
+        background-color: red;
+        display: flex;
+        justify-content: flex-start;
+    }
+}
+@media (max-width: 500px){
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        background-color: red;
+    }
+}
+@media (max-width: 500px){
+    .topnav{
+        display: flex;
+        justify-content: center;
+        width: 100px;
+        margin: 10px;
+        background-color: yellow;
+    }
+}
